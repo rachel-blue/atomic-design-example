@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { kittens } from './kittens.js';
 import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
   Link,
-  Route
+  Route,
+  useParams,
+  match
 } from "react-router-dom";
 
 function App() {
@@ -13,25 +15,46 @@ function App() {
     <Router>
       <div>
 
-        <div className="navbar navbar-light bg-light">
-          <nav>
-            <h1>Navbar</h1>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <Link
+            className="navbar-brand"
+            to="/"
+          >
+            Navbar
+          </Link>
+
+          <div className="collapse navbar-collapse">
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  to="/"
+                >
+                  Kittens
+                </Link>
               </li>
-              <li>
-                <Link to="/about">About</Link>
+              <li className="nav-item active">
+                <Link
+                  className="nav-link"
+                  to="/about"
+                >
+                  About
+                </Link>
               </li>
             </ul>
-          </nav>
-        </div>
+          </div>
 
+        </nav>
 
         <Switch>
           <Route path="/about">
             <About />
           </Route>
+
+          <Route path="/kittens">
+            <PageKittens />
+          </Route>
+
           <Route path="/">
             <PageKittens />
           </Route>
@@ -130,6 +153,11 @@ function About() {
 
 function PageKittens() {
 
+  const makeSound = (e) => {
+    e.preventDefault();
+    console.log('meow test');
+  }
+
   return (
     <div>
 
@@ -140,21 +168,27 @@ function PageKittens() {
         <div className="row">
 
           {
-            kittens.map((item) => (
+            kittens.map((animal) => (
               <div
                 className="col-12 col-sm-6 col-md-4 col-lg-3 py-2"
-                key={item.title}
+                key={animal.title}
               >
                 <div className="card">
                   <img
                     className="card-img-top"
-                    src={item.image}
+                    src={animal.image}
                     alt="Card image cap"
                   />
                   <div className="card-body">
-                    <h5 className="card-title">{item.title}</h5>
-                    <p className="card-text">{item.description}</p>
-                    <a href="#" className="btn btn-primary">Go Somewhere</a>
+                    <h5 className="card-title">{animal.title}</h5>
+                    <p className="card-text">{animal.description}</p>
+                    <button
+                      className="btn btn-primary"
+                      type="button"
+                      onClick={makeSound}
+                    >
+                      meow
+                    </button>
                   </div>
                 </div>
               </div>
