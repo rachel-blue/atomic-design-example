@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { kittens } from './kittens.js';
 import './App.css';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Link,
   Route
