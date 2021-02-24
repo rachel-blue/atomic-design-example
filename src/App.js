@@ -5,9 +5,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Link,
-  Route,
-  useParams,
-  match
+  Route
 } from "react-router-dom";
 
 function App() {
@@ -77,42 +75,12 @@ function About() {
           much as you wish sit on the laptop. Plan your travel i like big cats and i can not lie yet gimme attention gimme
           attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore
           meow bye or hiding behind the couch until lured out by a feathery toy yet climb into cupboard and lick the salt
-          off rice cakes. Hiss at vacuum cleaner sleep in the bathroom sink a nice warm laptop for me to sit on. Eat the
-          rubberband man running from cops stops to pet cats, goes to jail sit as close as possible to warm fire without
-          sitting on cold floor so poop on the floor, break a planter, sprint, eat own hair, vomit hair, hiss, chirp at
-          birds, eat a squirrel, hide from fireworks, lick toe beans, attack christmas tree sleep nap i like fish or
-          playing with balls of wool. Lick left leg for ninety minutes, still dirty chirp at birds. Sit in a box for hours
-          pose purrfectly to show my beauty so naughty running cat for find empty spot in cupboard and sleep all day or
-          sleep on dog bed, force dog to sleep on floor for leave dead animals as gifts has closed eyes but still sees you.
-          Massacre a bird in the living room and then look like the cutest and most innocent animal on the planet. Pet me
-          pet me pet me pet me, bite, scratch, why are you petting me always ensure to lay down in such a manner that tail
-          can lightly brush human's nose , jumps off balcony gives owner dead mouse at present then poops in litter box
-          snatches yarn and fights with dog cat chases laser then plays in grass finds tiny spot in cupboard and sleeps
-          all day jumps in bathtub and meows when owner fills food dish the cat knocks over the food dish cat slides down
-          the water slide and into pool and swims even though it does not like water and pooping rainbow while flying in
-          a toasted bread costume in space or one of these days i'm going to get that red dot, just you wait and see.
-          Roll on the floor purring your whiskers off furrier and even more furrier hairball fight an alligator and win
-          kitty for trip on catnip shed everywhere shed everywhere stretching attack your ankles chase the red dot,
-          hairball run catnip eat the grass sniff yet ccccccccccccaaaaaaaaaaaaaaatttttttttttttttttssssssssssssssss.
-           While happily ignoring when being called litter
+          off rice cakes. Hiss at vacuum cleaner sleep in the bathroom sink a nice warm laptop for me to sit on.
           box is life, for oooo! dangly balls! jump swat swing flies so sweetly to the floor crash move on wash belly
           nap. Trip on catnip purr purr purr until owner pets why owner not pet me hiss scratch meow. Need to check on
           human, have not seen in an hour might be dead oh look, human is alive, hiss at human, feed me fish i must find
           my red catnip fishy fish or purr as loud as possible, be the most annoying cat that you can, and, knock
-          everything off the table, so give attitude meowing non stop for food pretend not to be evil. Purrrrrr catch
-          mouse and gave it as a present. Have a lot of grump in yourself because you can't forget to be grumpy and not
-          be like king grumpy cat burrow under covers, or lick face hiss at owner, pee a lot, and meow repeatedly scratch
-          at fence purrrrrr eat muffins and poutine until owner comes back and pounce on unsuspecting person, and scratch
-          me there, elevator butt bleghbleghvomit my furball really tie the room together chase after silly colored fish
-          toys around the house. Lick master's hand at first then bite because im moody if it smells like fish eat as
-          much as you wish but claw drapes. Throw down all the stuff in the kitchen stare at owner accusingly then wink.
-          I shredded your linens for you ptracy stare at wall turn and meow stare at wall some more meow again continue
-          staring . Lick arm hair bird bird bird bird bird bird human why take bird out i could have eaten that scratch
-          me there, elevator butt refuse to leave cardboard box pee in the shoe, suddenly go on wild-eyed crazy rampage.
-          Drink from the toilet eat fish on floor loved it, hated it, loved it, hated it eat the fat cats food flee in
-          terror at cucumber discovered on floor. Murr i hate humans they are so annoying brown cats with pink ears
-          toilet paper attack claws fluff everywhere meow miao french ciao litterbox fish i must find my red catnip
-          fishy fish.
+          everything off the table, so give attitude meowing non stop for food pretend not to be evil.
         </p>
           <br />
           <p>
@@ -144,9 +112,21 @@ function About() {
         </p>
       </div>
 
-      <div className="card-footer">
-        <small>Footer placeholder</small>
-      </div>
+      <footer
+        className="footer py-3 o-footer text-center bg-light"
+      >
+        <div className="container">
+          <a
+            className="btn btn-outline-primary"
+            href="https://github.com/rachel-blue/atomic-design-example"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="button"
+          >
+            View the Source Code
+          </a>
+        </div>
+      </footer>
     </div>
   )
 }
@@ -156,6 +136,7 @@ function PageKittens() {
   const makeSound = (e) => {
     e.preventDefault();
     console.log('meow test');
+    window.alert('meow , meow!')
   }
 
   return (
@@ -201,9 +182,21 @@ function PageKittens() {
 
       </div>
 
-      <div className="card-footer">
-        <small>Footer placeholder</small>
-      </div>
+      <footer
+        className="footer py-3 o-footer text-center bg-light"
+      >
+        <div className="container">
+          <a
+            className="btn btn-outline-primary"
+            href="https://github.com/rachel-blue/atomic-design-example"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="button"
+          >
+            View the Source Code
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }

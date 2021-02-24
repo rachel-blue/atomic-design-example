@@ -16,3 +16,7 @@ Run `npm start` for a dev server.
 Page will automatically open in browser,
 or navigate to http://localhost:300 to view it in the browser.
 
+## `Notes`
+Images were sourced from [Pixabay](https://pixabay.com/).
+Descriptions are from [Lorem Ipsum](https://www.lipsum.com/).
+About Page text is from the [Cat Ipsum generator](http://www.catipsum.com/).
