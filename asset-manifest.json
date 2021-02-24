@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/atomic-design-example/static/css/main.1e373894.chunk.css",
+    "main.js": "/atomic-design-example/static/js/main.5585458f.chunk.js",
+    "main.js.map": "/atomic-design-example/static/js/main.5585458f.chunk.js.map",
+    "runtime-main.js": "/atomic-design-example/static/js/runtime-main.273d01a1.js",
+    "runtime-main.js.map": "/atomic-design-example/static/js/runtime-main.273d01a1.js.map",
+    "static/css/2.658248ec.chunk.css": "/atomic-design-example/static/css/2.658248ec.chunk.css",
+    "static/js/2.b9411c2d.chunk.js": "/atomic-design-example/static/js/2.b9411c2d.chunk.js",
+    "static/js/2.b9411c2d.chunk.js.map": "/atomic-design-example/static/js/2.b9411c2d.chunk.js.map",
+    "index.html": "/atomic-design-example/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/atomic-design-example/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.1e373894.chunk.css.map": "/atomic-design-example/static/css/main.1e373894.chunk.css.map",
+    "static/js/2.b9411c2d.chunk.js.LICENSE.txt": "/atomic-design-example/static/js/2.b9411c2d.chunk.js.LICENSE.txt",
+    "static/media/bartholomew.c3c3d0a1.jpg": "/atomic-design-example/static/media/bartholomew.c3c3d0a1.jpg",
+    "static/media/buckwheat.76566510.jpg": "/atomic-design-example/static/media/buckwheat.76566510.jpg",
+    "static/media/congress.d4ac7d1e.jpg": "/atomic-design-example/static/media/congress.d4ac7d1e.jpg",
+    "static/media/goose.e15bb3fa.jpg": "/atomic-design-example/static/media/goose.e15bb3fa.jpg",
+    "static/media/kitteh.fe0b48a8.jpg": "/atomic-design-example/static/media/kitteh.fe0b48a8.jpg",
+    "static/media/mittens.e5ebf37e.jpg": "/atomic-design-example/static/media/mittens.e5ebf37e.jpg",
+    "static/media/pickle.bef489cf.jpg": "/atomic-design-example/static/media/pickle.bef489cf.jpg",
+    "static/media/pounce.05637242.jpg": "/atomic-design-example/static/media/pounce.05637242.jpg",
+    "static/media/salem.38a2675a.jpg": "/atomic-design-example/static/media/salem.38a2675a.jpg",
+    "static/media/stitch.72b10467.jpg": "/atomic-design-example/static/media/stitch.72b10467.jpg",
+    "static/media/whiskers.c94b2409.jpg": "/atomic-design-example/static/media/whiskers.c94b2409.jpg",
+    "static/media/wiggums.04d3a36a.jpg": "/atomic-design-example/static/media/wiggums.04d3a36a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.273d01a1.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.b9411c2d.chunk.js",
+    "static/css/main.1e373894.chunk.css",
+    "static/js/main.5585458f.chunk.js"
+  ]
+}
