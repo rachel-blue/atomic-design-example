@@ -1,4 +1,4 @@
-# Atomic Design Example Project
+# [Atomic Design Example Project](https://rachel-blue.github.io/atomic-design-example)
 This project was created for a Women Who Code Boulder/Denver lightning talk about Atomic Design. 
 It is intended to demonstrate folder structure and separate components to show a small working example of
 atomic design in a project. 

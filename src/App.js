@@ -143,8 +143,14 @@ function PageKittens() {
     <div>
 
       <div className="container py-4">
-        <h2>Content!</h2>
-        <p>There will be content and things here. For now, just some simple text</p>
+        <h2>Kittens</h2>
+        <p className="py-3">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis gravida posuere vestibulum. Vivamus sed ligula
+          ut sem lobortis vulputate. Curabitur ut felis a nisl sodales tincidunt a id tellus. In pellentesque ante sit
+          amet efficitur faucibus. Ut et sollicitudin ipsum. Nam ac elit id nibh aliquam viverra. Mauris interdum erat
+          eros, non fermentum mauris sodales eu. Nam ullamcorper eleifend est, a vulputate lacus. Vivamus porttitor
+          lorem eget orci rhoncus condimentum. Duis sollicitudin arcu vel ligula varius consequat quis ac mi.
+        </p>
 
         <div className="row">
 
