@@ -17,14 +17,14 @@ export const kittens = [
     id: "kitteh-meow-face",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris augue dui, tempus",
     image: kitteh,
-    sound: "meow, meow!",
+    sound: "nyan",
   },
   {
     title: "Sir Pounce-a-lot",
     id: "sir-pounce-a-lot",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris augue dui, tempus",
     image: pounce,
-    sound: "merep meaow!",
+    sound: "meow!",
   },
   {
     title: "Detective Mittens",
@@ -59,7 +59,7 @@ export const kittens = [
     id: "stitch",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris augue dui, tempus",
     image: stitch,
-    sound: "nyan",
+    sound: "h-he-hello",
   },
   {
     title: "Salem",
