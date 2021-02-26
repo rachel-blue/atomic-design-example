@@ -1,4 +1,5 @@
 import React from 'react';
+import CardText from "../../molecules/CardText/CardText";
 
 function ProfileCard({ animal }) {
   const makeSound = (e) => {
@@ -18,8 +19,7 @@ function ProfileCard({ animal }) {
           alt="Card image cap"
         />
         <div className="card-body">
-          <h5 className="card-title">{animal.title}</h5>
-          <p className="card-text">{animal.description}</p>
+          <CardText animal={animal} />
           <button
             className="btn btn-primary"
             type="button"

@@ -1,10 +1,15 @@
 import React from 'react'
 import TemplateDefault from "../../templates/TemplateDefault/TemplateDefault";
+import Title from "../../atoms/Title/Title";
 
 function PageAbout() {
   return (
     <TemplateDefault>
-      <h2>About Page</h2>
+      <Title
+        size={2}
+        children="About"
+      />
+
       <p>
         Cat ipsum dolor sit amet, x but see owner, run in terror and curl up and sleep on the freshly laundered towels.
         Bury the poop bury it deep. Fall asleep upside-down flee in terror at cucumber discovered on floor and ask to
