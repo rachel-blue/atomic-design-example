@@ -5,7 +5,6 @@ import ProfileCard from "../../organisms/ProfileCard/ProfileCard";
 import Title from "../../atoms/Title/Title";
 
 function PageKittens() {
-
   return (
     <TemplateDefault>
       <Title

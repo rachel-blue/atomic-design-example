@@ -1,9 +1,7 @@
 import React from "react";
-import './App.css';
 import {
   HashRouter as Router,
   Switch,
-  Link,
   Route
 } from "react-router-dom";
 import PageAbout from "./components/pages/PageAbout/PageAbout";
@@ -32,7 +30,5 @@ function App() {
     </Router>
   )
 }
-
-
 
 export default App;

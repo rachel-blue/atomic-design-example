@@ -13,7 +13,7 @@ function TemplateDefault({ children }) {
 
       <Footer />
     </>
-  )
+  );
 }
 
 export default TemplateDefault;

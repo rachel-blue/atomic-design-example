@@ -53,7 +53,7 @@ function PageAbout() {
         then climb on her lap and sprawl purr yet paw your face to wake you up in the morning russian blue.
       </p>
     </TemplateDefault>
-  )
+  );
 }
 
 export default PageAbout;
