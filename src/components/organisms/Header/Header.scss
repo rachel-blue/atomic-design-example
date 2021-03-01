@@ -1,0 +1,10 @@
+.o-header{
+    &_logo{
+        height: 3rem;
+        width: auto;
+    }
+
+    &_nav-item a.chosen{
+        border-bottom: 1px solid #727272;
+    }
+}
