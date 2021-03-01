@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/atomic-design-example/static/css/main.a2e5cb29.chunk.css",
-    "main.js": "/atomic-design-example/static/js/main.a11e72c0.chunk.js",
-    "main.js.map": "/atomic-design-example/static/js/main.a11e72c0.chunk.js.map",
+    "main.css": "/atomic-design-example/static/css/main.df922c0f.chunk.css",
+    "main.js": "/atomic-design-example/static/js/main.ab9844c9.chunk.js",
+    "main.js.map": "/atomic-design-example/static/js/main.ab9844c9.chunk.js.map",
     "runtime-main.js": "/atomic-design-example/static/js/runtime-main.273d01a1.js",
     "runtime-main.js.map": "/atomic-design-example/static/js/runtime-main.273d01a1.js.map",
     "static/css/2.658248ec.chunk.css": "/atomic-design-example/static/css/2.658248ec.chunk.css",
-    "static/js/2.e3b8c7b2.chunk.js": "/atomic-design-example/static/js/2.e3b8c7b2.chunk.js",
-    "static/js/2.e3b8c7b2.chunk.js.map": "/atomic-design-example/static/js/2.e3b8c7b2.chunk.js.map",
+    "static/js/2.26c53c1b.chunk.js": "/atomic-design-example/static/js/2.26c53c1b.chunk.js",
+    "static/js/2.26c53c1b.chunk.js.map": "/atomic-design-example/static/js/2.26c53c1b.chunk.js.map",
     "index.html": "/atomic-design-example/index.html",
     "static/css/2.658248ec.chunk.css.map": "/atomic-design-example/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.a2e5cb29.chunk.css.map": "/atomic-design-example/static/css/main.a2e5cb29.chunk.css.map",
-    "static/js/2.e3b8c7b2.chunk.js.LICENSE.txt": "/atomic-design-example/static/js/2.e3b8c7b2.chunk.js.LICENSE.txt",
+    "static/css/main.df922c0f.chunk.css.map": "/atomic-design-example/static/css/main.df922c0f.chunk.css.map",
+    "static/js/2.26c53c1b.chunk.js.LICENSE.txt": "/atomic-design-example/static/js/2.26c53c1b.chunk.js.LICENSE.txt",
     "static/media/bartholomew.c3c3d0a1.jpg": "/atomic-design-example/static/media/bartholomew.c3c3d0a1.jpg",
     "static/media/buckwheat.76566510.jpg": "/atomic-design-example/static/media/buckwheat.76566510.jpg",
     "static/media/congress.d4ac7d1e.jpg": "/atomic-design-example/static/media/congress.d4ac7d1e.jpg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.273d01a1.js",
     "static/css/2.658248ec.chunk.css",
-    "static/js/2.e3b8c7b2.chunk.js",
-    "static/css/main.a2e5cb29.chunk.css",
-    "static/js/main.a11e72c0.chunk.js"
+    "static/js/2.26c53c1b.chunk.js",
+    "static/css/main.df922c0f.chunk.css",
+    "static/js/main.ab9844c9.chunk.js"
   ]
 }
