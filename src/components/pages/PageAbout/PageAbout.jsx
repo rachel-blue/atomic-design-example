@@ -10,8 +10,8 @@ function PageAbout() {
         children="About"
       />
 
-      <p>
-        Cat ipsum dolor sit amet, x but see owner, run in terror and curl up and sleep on the freshly laundered towels.
+      <p className="pt-3">
+        Cat ipsum dolor sit amet, see owner, run in terror and curl up and sleep on the freshly laundered towels.
         Bury the poop bury it deep. Fall asleep upside-down flee in terror at cucumber discovered on floor and ask to
         go outside and ask to come inside and ask to go outside and ask to come inside. If it smells like fish eat as
         much as you wish sit on the laptop. Plan your travel i like big cats and i can not lie yet gimme attention gimme
@@ -24,9 +24,9 @@ function PageAbout() {
         my red catnip fishy fish or purr as loud as possible, be the most annoying cat that you can, and, knock
         everything off the table, so give attitude meowing non stop for food pretend not to be evil.
       </p>
-      <br />
-      <p>
-        Cat mojo . Cats are the world run in circles proudly present butt to human. Purr hack up furballs eat and than
+
+      <p className="pt-3">
+        Cats are the world run in circles proudly present butt to human. Purr hack up furballs eat and than
         sleep on your face or if it fits i sits so and sometimes switches in french and say "miaou" just because well
         why not and climb a tree, wait for a fireman jump to fireman then scratch his face. Roll over and sun my belly
         floof tum, tickle bum, jellybean footies curly toes yet push your water glass on the floor for lick left leg
@@ -42,8 +42,8 @@ function PageAbout() {
         shirt. Scratch me there, elevator butt cat dog hate mouse eat string barf pillow no baths hate everything yet
         eat too much then proceed to regurgitate all over living room carpet while humans eat dinner.
       </p>
-      <br />
-      <p>
+
+      <p className="pt-3">
         Jump launch to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed
         lasers are tiny mice and purr or dead stare with ears cocked yet pet me pet me don't pet me but destroy the
         blinds or plop down in the middle where everybody walks. Munch, munch, chomp, chomp destroy the blinds so pee

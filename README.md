@@ -42,7 +42,7 @@ Clone the repo and try some of the suggested steps below or experiment on your o
 
 ### `Practice`
 Try implementing it in small projects asking yourself these questions about componetization
-1. is this DRY? (am I repeating code three times or more)
+1. is this [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)? (am I repeating code three times or more)
 2. is the file responsible for more than one thing? ([Single responsibility](https://en.wikipedia.org/wiki/Single-responsibility_principle#:~:text=The%20single%2Dresponsibility%20principle%20(SRP,functionality%2C%20which%20it%20should%20encapsulate.))
 3. what category does this fall into?
     - page
